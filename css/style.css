@@ -1,0 +1,107 @@
+@charset 'UTF-8';
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+
+    letter-spacing: .1em;
+
+    color: #4c4c4c;
+    background-color: #fdfcf6;
+}
+.menu1{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    
+}
+.menu2{
+    font-size: 1.7rem;
+    color:black;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+
+    color: #14c0c9;
+}
+a:visited
+{
+    color: #0f949b;
+}
+a:hover
+{
+    color: #0f949b;
+}
+a:active
+{
+    color: #16d6e0;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+.menu
+{
+    text-align: center;
+}
+p{
+     text-align: center;
+}
+.botton{
+    display: block;
+    
+    background: green;
+    color: black;
+    border-radius: 3px;
+    width: 50px;
+    height: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+
+    text-align: center;
+    margin-left: auto;
+              margin-right: auto;
+   
+}
+
+header img{ 
+    width:100%;
+    height:auto;
+}
+
+.go {
+        display:inline-block;
+        margin:50px 10px 30px 10px ;
+        background: orange;
+    width: 100%;
+    height: 100px;
+    
+   
+        
+    }
+.go.menu{
+ font-size:1.6rem;
+   color:black; 
+    
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
